@@ -1,5 +1,5 @@
 body {
-    background-color:#ddeaf0;
+    background-color:#000000;
 }
 
 @font-face {
@@ -7,12 +7,34 @@ body {
     src: url(fonts/WorkSans-Regular.ttf);
   }
 
-p1{
-    color:#853D60;
-    font-family: Helvetica;
-      font-size: 25px;
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+h1{
+    color:#000000;
+    font-family: "Goldman";
+      font-size: 30px;
       text-align:start;
-      margin: 150px;
+      margin: 0px;
+  }
+
+  h2{
+    color:#A8D2EB;
+    font-family: "Goldman";
+      font-size: 50px;
+      text-align:start;
+      margin: 0px;
+  }
+
+p{
+    color:#000000;
+    font-family: Helvetica;
+      font-size: 20px;
+      text-align:start;
+      margin: 0px;
   }
 
 br {
@@ -21,10 +43,78 @@ br {
  }
 
  header {
-    background-color:#578dcc;
-    padding: 0px;
+    background-color:#869db3;
+    padding: 30px;
     margin: 150px;
     text-align: center;
     font-size: 15px;
     color: white;
   }
+
+  section {
+    display: block;
+    background-color:#A8D2EB;
+    padding: 120px;
+    margin: 150px;
+    text-align: center;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+  }
+  
+  li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  #navigation-container {
+    position:relative;
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+  }
+
+  a {
+    text-decoration: none;
+    color: #A8D2EB;
+    font-size: 30px;
+    font-family: "Goldman";
+    padding: 15px 30px;
+    opacity: 0.7;
+  }
+
+  /*Floating Back-To-Top Button*/
+#myBtn {
+  position: fixed;
+  bottom: 10px;
+  float: right;
+  right: 15%;
+  left: 85%;
+  max-width: 100px;
+  width: 100%;
+  font-size: 12px;
+  border-color: rgb(47, 73, 80);
+  background-color: #A8D2EB;
+  padding: 1px;
+  border-radius: 4px;
+}
+
+ol {
+  display: block;
+  list-style-type: decimal;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+  color:#000000;
+  font-family: Helvetica;
+  font-size: 20px;
+  text-align:start;
+  margin: 0px;
+}
