@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root{
+    --col01: rgb(0,0,0);
+    --col02: rgb(59, 58, 58);
+    --col03: rgb(201, 201, 201);
+    --col04: rgb(255, 255, 255);
+    --border: 10px solid var(--col02);
+}
